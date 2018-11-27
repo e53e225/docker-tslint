@@ -5,6 +5,7 @@ RUN npm install --global --production \
     tslint \
     tslint-config-prettier \
     tslint-plugin-prettier \
+    tslint-react \
     typescript
 
 ENTRYPOINT ["/usr/local/bin/tslint"]
